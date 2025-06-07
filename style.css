@@ -23,6 +23,22 @@ header{
     color: #00A2E8;
     font-size: 1.4rem;
     font-family: 'Comic Sans MS', cursive;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 15%;
+}
+
+header .logo{
+    display: none;
+    height: 80px;
+    width: 80px;
+}
+
+header .title{
+    display: block;
+    height: 80px;
 }
 
 header span{
@@ -48,6 +64,8 @@ main{
     display: flex;
     flex-direction: row;
     align-items: stretch;
+    margin-right: 25%;
+    margin-left: 15%;
 }
 
 .container{
@@ -109,7 +127,6 @@ main{
 
 .content-picture{
     padding-top: 15px;
-    /* background-color: white; */
     display: flex;
     align-items: center;
     justify-content: left;
@@ -124,12 +141,16 @@ main{
 }
 
 .aside{
-    width: 30%;
+    width: 25%;
     border-left: 5px solid #1F1F1F;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
 }
 
 .aside-item{
@@ -140,13 +161,13 @@ main{
     height: 40%;
     width: 90%;
     margin: 5%;
-    border-radius: 10px;
+    border-radius: 1.5rem;
     border: 5px solid #1F1F1F;
 }
 
 .aside-item span{
     color: #7f7f7f;
-    font-size: 2rem;
+    font-size: 1.9rem;
     margin-bottom: 10px;
     margin-top: 10px;
 }
@@ -154,8 +175,31 @@ main{
 .scrollpanel{
     flex: 1;
     width: 95%;
-    background: white;
     overflow: auto;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.person{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    background: white;
+    justify-content: start;
+    align-items: center;
+}
+
+.person .profile-picture{
+    height: 30px;
+    width: 30px;
+}
+
+.follow{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: 0;
+    color: #0478aa;
 }
 
 /* Mobile */
@@ -171,6 +215,20 @@ main{
     .content-picture img{
         min-width: 100%;
     }
+
+    main{
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 950px){
+    header .logo{
+        display: block;
+    }
+    header .title{
+        display: none;
+    }
 }
 
 /* Tablets */
@@ -185,5 +243,9 @@ main{
 
     .content-picture img{
         min-width: 85%;
+    }
+
+    main{
+        margin-right: 0;
     }
 }

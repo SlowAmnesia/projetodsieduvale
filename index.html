@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>UNEDUNET</title>
 </head>
 <body>
     
     <header>
-        <span>UNEDUNET</span>
+        <img class="logo" src="./assets/logo.png">
+        <span class="title">UNEDUNET</span>
 
         <div class="options">
             <img src="assets/default_profile_picture.png">
@@ -31,30 +33,6 @@
                 <input type="text" name="search" id="searchbar">
             </div>
 
-            <div class="post">
-
-                <div class="profile-picture">
-                    <img src="./assets/default_profile_picture.png">
-                </div>
-
-                <div class="content">
-
-                    <div class="content-header">
-                        <span class="nickname"></span>
-                        <span class="user"></span>
-                        <span class="time-passed"></span>
-                    </div>
-
-                    <div class="content-text"></div>
-
-                    <div class="content-picture">
-                        <img class="content-image" src="">
-                    </div>
-
-                </div>
-
-            </div>
-
         </div>
 
         <div class="aside">
@@ -72,6 +50,19 @@
 
                 <div class="scrollpanel">
                     
+                    <div class="person">
+                        <div class="profile-picture">
+                            <img src="">
+                        </div>
+
+                        <div class="name">
+                            <span class="nickname"></span>
+                            <span class="user"></span>
+                        </div>
+
+                        <button class="follow">Seguir</button>
+                    </div>
+
                 </div>
             </div>
 
@@ -80,5 +71,4 @@
     </main>
 
 </body>
-<script src="script.js"></script>
 </html>
