@@ -1,12 +1,32 @@
 [
     {
         "profile_picture": "./assets/cat.jpeg",
-        "nickname": "gato",
-        "user": "cat"
+        "nickname": "Mosca71",
+        "user": "mosca71"
     },
     {
-        "profile_picture": "./assets/cat.jpeg",
-        "nickname": "gato",
-        "user": "cat"
+        "profile_picture": "./assets/default_profile_picture.png",
+        "nickname": "teoMM",
+        "user": "teo"
+    },
+    {
+        "profile_picture": "./assets/default_profile_picture.png",
+        "nickname": "Pato",
+        "user": "pato0764"
+    },
+    {
+        "profile_picture": "./assets/default_profile_picture.png",
+        "nickname": "Presidente Lula",
+        "user": "presidentelulaoficial"
+    },
+    {
+        "profile_picture": "./assets/cachorropepeta.png",
+        "nickname": "Cachorro chupetão",
+        "user": "tuctuc"
+    },
+    {
+        "profile_picture": "./assets/default_profile_picture.png",
+        "nickname": "MC Manguinha",
+        "user": "manguinhamcoficial"
     }
 ]

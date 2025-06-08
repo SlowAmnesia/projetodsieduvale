@@ -1,42 +1,32 @@
 [
     {
-        "profile_picture": "./assets/cat.jpeg",
-        "nickname": "gato",
-        "user": "cat"
+        "profile_picture": "./assets/default_profile_picture.png",
+        "nickname": "Ale de Moraes",
+        "user": "lelezinho"
     },
     {
-        "profile_picture": "./assets/cat.jpeg",
-        "nickname": "gato",
-        "user": "cat"
+        "profile_picture": "./assets/default_profile_picture.png",
+        "nickname": "Xandão",
+        "user": "xandao38"
     },
     {
-        "profile_picture": "./assets/cat.jpeg",
-        "nickname": "gato",
-        "user": "cat"
+        "profile_picture": "./assets/default_profile_picture.png",
+        "nickname": "Diego Moraes",
+        "user": "profdiego"
     },
     {
-        "profile_picture": "./assets/cat.jpeg",
-        "nickname": "gato",
-        "user": "cat"
+        "profile_picture": "./assets/default_profile_picture.png",
+        "nickname": "Viniccius13",
+        "user": "viniccius14"
     },
     {
-        "profile_picture": "./assets/cat.jpeg",
-        "nickname": "gato",
-        "user": "cat"
+        "profile_picture": "./assets/default_profile_picture.png",
+        "nickname": "DaviGamerHD",
+        "user": "davi"
     },
     {
-        "profile_picture": "./assets/cat.jpeg",
-        "nickname": "gato",
-        "user": "cat"
-    },
-    {
-        "profile_picture": "./assets/cat.jpeg",
-        "nickname": "gato",
-        "user": "cat"
-    },
-    {
-        "profile_picture": "./assets/cat.jpeg",
-        "nickname": "gato",
-        "user": "cat"
+        "profile_picture": "./assets/default_profile_picture.png",
+        "nickname": "Quenya Oeste",
+        "user": "canyourest"
     }
 ]

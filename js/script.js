@@ -104,7 +104,7 @@ function criarPost(objetoPost){
 
     const timePassed = document.createElement('span');
     timePassed.classList.add('time-passed');
-    timePassed.innerHTML = objetoPost.time_passed + 'h';
+    timePassed.innerHTML = '&bull;' + objetoPost.time_passed + 'h';
     
     const contentText = document.createElement('div');
     contentText.classList.add('content-text');
@@ -125,7 +125,7 @@ function criarPost(objetoPost){
 
     content.appendChild(contentHeader);
     content.appendChild(contentText);
-    content.appendChild(contentPicture);
+    if (objetoPost.content_image) content.appendChild(contentPicture);
 
     profilePicture.appendChild(img);
 

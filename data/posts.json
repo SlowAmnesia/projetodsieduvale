@@ -1,18 +1,26 @@
 [
     {
         "profile_picture": "./assets/cat.jpeg",
-        "nickname": "Teste", 
-        "user": "@slowamnesia", 
+        "nickname": "Mosca71", 
+        "user": "@mosca71", 
         "time_passed": 14, 
         "content_text": "Exemplo de texto escrito em uma publicação normal de rede social exemplo de texto escrito em uma publicação normal de rede social exemplo de texto escrito em uma publicação normal de rede social", 
         "content_image": "./assets/cat.jpeg"
     },
     {
-        "profile_picture": "./assets/cat.jpeg",
-        "nickname": "Teste", 
-        "user": "@slowamnesia", 
-        "time_passed": 14, 
-        "content_text": "Exemplo de texto escrito em uma publicação normal de rede social exemplo de texto escrito em uma publicação normal de rede social exemplo de texto escrito em uma publicação normal de rede social", 
-        "content_image": "./assets/cat.jpeg"
+        "profile_picture": "./assets/default_profile_picture.png",
+        "nickname": "Pato", 
+        "user": "@pato0764", 
+        "time_passed": 20, 
+        "content_text": "COMO TIRA O CAPSLOCK???????????",
+        "content_image": ""
+    },
+    {
+        "profile_picture": "./assets/cachorropepeta.png",
+        "nickname": "Cachorro chupetão", 
+        "user": "@tuctuc", 
+        "time_passed": 999, 
+        "content_text": "O inimigo mais perigoso que você poderá encontrar será sempre você mesmo, esse é o preço de ter a consciência da existência de si mesmo.",
+        "content_image": "./assets/cachorropepeta.png"
     }
 ]

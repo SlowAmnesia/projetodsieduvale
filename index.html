@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./js/script.js"></script>
+    <script src="./js/form.js"></script>
     <title>UNEDUNET</title>
 </head>
 <body>
@@ -30,10 +31,31 @@
         <div class="container">
 
             <div class="searchcontainer">
-                <input type="text" name="search" id="searchbar">
+                <input type="text" name="search" id="searchbar" placeholder="Buscar">
                 <img src="./assets/lupa.png">
             </div>
 
+            <form class="newpost">
+
+                <div class="profile-picture">
+                    <img src="./assets/default_profile_picture.png" class="profile-image">
+                </div>
+
+                <div class="newpost-main">
+                    <textarea name="text" id="text" placeholder="O que está acontecendo?"></textarea>
+                
+                    <div class="actions">
+                        <select name="image" id="image">
+                            <option value="" selected>Escolher imagem</option>
+                            <option value="./assetes/cat.jpeg">Gato</option>
+                        </select>
+                        <button id="submit" disabled>Postar</button>
+                    </div>
+
+                    <span class="counter">400</span>
+                </div>
+
+            </form>
 
         </div>
 
