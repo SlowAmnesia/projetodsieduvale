@@ -17,7 +17,7 @@
     {
         "profile_picture": "./assets/default_profile_picture.png",
         "nickname": "Presidente Lula",
-        "user": "presidentelulaoficial"
+        "user": "presidentelula"
     },
     {
         "profile_picture": "./assets/cachorropepeta.png",
@@ -27,6 +27,6 @@
     {
         "profile_picture": "./assets/default_profile_picture.png",
         "nickname": "MC Manguinha",
-        "user": "manguinhamcoficial"
+        "user": "manguinhamc"
     }
 ]
