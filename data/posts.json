@@ -6,5 +6,13 @@
         "time_passed": 14, 
         "content_text": "Exemplo de texto escrito em uma publicação normal de rede social exemplo de texto escrito em uma publicação normal de rede social exemplo de texto escrito em uma publicação normal de rede social", 
         "content_image": "./assets/cat.jpeg"
+    },
+    {
+        "profile_picture": "./assets/cat.jpeg",
+        "nickname": "Teste", 
+        "user": "@slowamnesia", 
+        "time_passed": 14, 
+        "content_text": "Exemplo de texto escrito em uma publicação normal de rede social exemplo de texto escrito em uma publicação normal de rede social exemplo de texto escrito em uma publicação normal de rede social", 
+        "content_image": "./assets/cat.jpeg"
     }
 ]

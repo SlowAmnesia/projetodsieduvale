@@ -13,6 +13,10 @@ body{
     background-color: #1A1A1A;
 }
 
+img{
+    cursor: pointer;
+}
+
 header{
     padding: 30px;
     border-right: 5px solid #1F1F1F;
@@ -75,17 +79,28 @@ main{
 .searchcontainer{
     border-bottom: 5px solid #1F1F1F;
     padding: 20px 50px 20px 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.searchcontainer img{
+    height: 1.8rem;
+    width: 1.8rem;
+    position: absolute;
+    right: 60px;
 }
 
 #searchbar{
     width: 100%;
-    border: 2px solid #4e4e4e;
+    border: 2px solid #424242;
     border-radius: 50px;
-    background-color: #1A1A1A;
+    background-color: #7f7f7f;
     color: #dbdbdb;
     font-size: 1rem;
     padding: 5px;
     padding-left: 10px;
+    padding-right: 45px;
 }
 
 #searchbar:focus{
@@ -119,6 +134,18 @@ main{
 .content-header{
     display: flex;
     flex-direction: row;
+}
+
+.nickname{
+    color: #c3c3c3;
+}
+
+.user{
+    color: #7f7f7f;
+}
+
+.time-passed{
+    color: #7f7f7f;
 }
 
 .content-text{
@@ -184,14 +211,32 @@ main{
     display: flex;
     flex-flow: row nowrap;
     width: 100%;
-    background: white;
-    justify-content: start;
-    align-items: center;
+    /* background: white; */
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .person .profile-picture{
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
+}
+
+.person .profile-picture img{
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.person .name{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.person .name span{
+    font-size: 1rem;
+    margin: 0;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .follow{
@@ -200,6 +245,7 @@ main{
     padding: 0;
     background: 0;
     color: #0478aa;
+    cursor: pointer;
 }
 
 /* Mobile */
